@@ -6,7 +6,7 @@ const Discord = require('discord.js');
 const bot = new CommandoClient({ 
     commandPrefix: "vw!", // This is the bots global prefix
     unknownCommandResponse: false, // This is so the bot doesn't reply if the command names are off
-    owner: ['288491554841034752'], // Your User ID here
+    owner: ['288491554841034752','297884814978187264'], // Your User ID here
     invite: "YOUR BOT SUPPORT SERVER HERE", // The Invite to your bot support server here.
 });
 fs.readdir("./events/", (err, files) => { // This Loads all of the event files from events/ folder
